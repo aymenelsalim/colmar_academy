@@ -1,11 +1,31 @@
+:root {
+font-size: 16px;
+}
+
 .desktop  {
   display: flex;
   align-items: center;
 }
 
+span {
+  color: gray;
+}
+
+strong {
+  color: black;
+}
+
+.div1 {
+  background-color: #D8D8D8;
+}
+
+.div3 .courses-row {
+  color: #EAEBEC;
+}
+
 .flex-content {
   display:flex;
- padding: 0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .flex-content .main-content {
@@ -80,6 +100,12 @@ header .mobile {
   display: flex;
 }
 
+.course {
+  flex-basis: 33%;
+  margin: 1rem;
+  background-color: white;
+}
+
 @media only screen and (max-width: 550px) {
   header .desktop {
     display: none;
@@ -96,7 +122,7 @@ header .mobile {
   .logo {
     justify-content: center;
   }
- /* .div1 .desktop {
+ /*.div1 .desktop {
     display: none;
   }*/
   .div1  {
@@ -133,14 +159,13 @@ header .mobile {
 
 .footer {
   color: grey;
-
 }
 
-/*h4.left {
+h4.left {
   float: left;
   margin-left: 24px;
 }
 
 h4.right {
   float: right;
-}*/
+}
