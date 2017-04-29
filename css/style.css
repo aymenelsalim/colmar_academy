@@ -1,5 +1,6 @@
-:root {
-font-size: 16px;
+
+html {
+  font-size: 16px;
 }
 
 .desktop  {
@@ -19,8 +20,20 @@ strong {
   background-color: #D8D8D8;
 }
 
-.div3 .courses-row {
+h1, h2, h3, h4, h5 {
+  color: #4A4A4A;
+}
+
+.div3 {
   color: #EAEBEC;
+}
+
+.div3 h1 {
+  text-align: center;
+}
+
+#banner {
+  text-align: center;
 }
 
 .flex-content {
@@ -30,7 +43,7 @@ strong {
 
 .flex-content .main-content {
   width: 60%;
-  padding: 2rem 1.5rem 2rem 0;
+  padding: 2rem 2.5rem 2rem 0;
   border-right: 1px solid rgb(245, 245, 245);
 }
 
@@ -65,8 +78,14 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 65%;
+  width: 35%;
   padding: 0 0.75rem 0 1rem;
+  overflow: hidden;
+}
+
+.content-image-box .text-content a {
+  text-decoration: none !important;
+  color: #4E91E2;
 }
 
 header .logo {
@@ -98,6 +117,10 @@ header .mobile {
 
 .courses-row {
   display: flex;
+}
+
+.courses-row .course {
+  text-decoration: none;
 }
 
 .course {
@@ -157,15 +180,13 @@ header .mobile {
   }
 }
 
-.footer {
+footer h5.left {
+  float: left;
+  margin-left: 24px;
   color: grey;
 }
 
-h4.left {
-  float: left;
-  margin-left: 24px;
-}
-
-h4.right {
+footer h5.right {
   float: right;
+  color: grey;
 }
